@@ -1,14 +1,3 @@
-/* Teste B5S Nível 2 */
-/* 
-Author Tiago Anderson M. Lucas.
-Fone: (44) 998064238
-E-mail: tiagolucas1402@gmail.com
-*/
-
-/* 
-Linguagem usada JAVASCRIPT, juntamente com HTML e CSS
-*/
-
 /* Pega o valor digitado do mês do ano */
 
 const mothList = [
