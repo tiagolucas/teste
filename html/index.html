@@ -1,0 +1,94 @@
+<!-- Teste B5S Nível 2 -->
+
+<!-- 
+Author Tiago Anderson M. Lucas.
+Fone: (44) 998064238
+E-mail: tiagolucas1402@gmail.com 
+-->
+
+<!-- Linguagem usada JAVASCRIPT, juntamente com HTML e CSS -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Lógico</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <!-- Mês do ano por extenso -->
+        <form action="mothOfTheYear">
+            <label for="moth">Mês Correspondente</label>
+            <input type="number" name="moth" id="moth" min="1" max="12" placeholder="Nº do mês">
+            <button type="submit" id="submit" onclick="correspondingMoth()">Verificar</button>
+        </form>
+
+        <div id="paragraph">
+            <p id="mothOfTheYear"></p>
+        </div>
+
+    </div>
+
+    <div>
+        <!-- Calculo de média simples -->
+        <form action="simpleAverage">
+            <label for="number">Média aritmética simples</label>
+            <input type="number" name="number" id="number" placeholder="Inserir valor">
+            <button type="submit" id="add" onclick="arithmeticAverage()">Acrescentar</button>
+            <button type="calc" id="simpleAverage" onclick="arithmeticAverage()">Calcular média</button>
+            <button type=" reset" id="clean" onclick="arithmeticAverage()">Limpar valor</button>
+        </form>
+
+        <div id="paragraph">
+            <p id="vetor"></p>
+            <p id="middleField"></p>
+        </div>
+    </div>
+
+    <div>
+        <!-- Verificando quantidade de número(s) par(es) no array -->
+        <form action="oddOrEven">
+            <label for="numbersOddOrEven">Verificando números pares</label>
+            <input type="number" name="numberOddOrEven" id="numberOddOrEven" placeholder="Inserir valor">
+            <button type="button" id="addNumber" onclick="oddOrEven()">Adicionar</button>
+            <button type="button" id="check" onclick="oddOrEven()">Verificar</button>
+            <button type=" reset" id="cleanOddOrEven" onclick="oddOrEven()">Limpar valores</button>
+        </form>
+
+        <div id="paragraph">
+            <p id="vet"></p>
+            <p id="count"></p>
+        </div>
+
+    </div>
+
+    <div>
+        <!-- Inverte a string -->
+        <form action="">
+            <label for="stringInverse">Invertendo texto</label>
+            <input type="text" name="string" id="string" placeholder="Palavra / frase">
+            <button type="submit" id="inverse" onclick="reverseString()">Inverter</button>
+        </form>
+
+        <div id="paragraph">
+            <p id="stringText"></p>
+            <p id="reverseString"></p>
+        </div>
+
+    </div>
+
+    <script src="../js/script.js" defer></script>
+</body>
+
+</html>

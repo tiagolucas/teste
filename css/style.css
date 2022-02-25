@@ -1,0 +1,89 @@
+/* Teste B5S Nível 2 */
+/* 
+Author Tiago Anderson M. Lucas.
+Fone: (44) 998064238
+E-mail: tiagolucas1402@gmail.com
+*/
+
+/* 
+Linguagem usada JAVASCRIPT, juntamente com HTML e CSS
+*/
+
+* {
+    font-family: 'Roboto Condensed', 'Poppins', sans-serif;
+}
+
+body {
+    background: black;
+    margin: 25px;
+}
+
+div {
+    background: #1C1C1C;
+    height: 200px;
+    width: 90%;
+    margin: 15px auto;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #4F4F4F;
+}
+
+div form {
+    padding: 10px;
+    height: 50px;
+}
+
+div form label {
+    color: #B0C4DE;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+div form input {
+    font-family: 'Poppins', sans-serif;
+    border: 2px solid #4F4F4F;
+    background-color: #E6E6FA;
+    border-radius: 5px;
+    height: 25px;
+    width: 110px;
+    margin-left: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+div form button {
+    padding: 0;
+    margin-left: 15px;
+    border: 2px solid #4F4F4F;
+    border-radius: 5px;
+    height: 43px;
+    width: 120px;
+    font-size: 1rem;
+    background: #4CAF50;
+    opacity: 0.8;
+}
+
+div form button:hover {
+    background: #008CBA;
+    color: blanchedalmond;
+    font-weight: 700;
+    border: 2px solid blanchedalmond;
+}
+
+#paragraph {
+    height: 110px;
+    margin: 5px auto;
+    padding: 0;
+    border-radius: 8px;
+    border: 1px solid blanchedalmond;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#paragraph p {
+    margin: auto;
+    color: #ADD8E6;
+    font-weight: 700;
+    font-size: 1rem;
+}
